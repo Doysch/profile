@@ -1,0 +1,133 @@
+body {
+  background-color: #DCE1E9;
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card-blue {
+
+  background-color: rgb(165, 190, 230);
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 3px rgba(103, 153, 233, 0.2);
+  border-radius: 8px;
+}
+
+.image {
+  /* box-shadow: 4px 2px 3px rgba(103, 153, 233, .2); */
+  margin: 0 auto;
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #363732;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: #363732;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-blue {
+  background-color: #3e3ef3;
+  color: aliceblue;
+  padding: 8px 8px;
+  width: 120px;
+  margin: 20px auto;
+  height: auto;
+  text-align: center;
+  border-radius: 4px;
+  transition:  1.5s;
+  transition-timing-function: ease-out;
+}
+
+.button-blue:hover {
+  width: 150px;
+}
+
+.links {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button-blue a {
+  color: aliceblue;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#inline-list li {
+  display: inline;
+  margin: 4px 4px;
+  font-size: 36px;
+  transition: 1.5s;
+
+
+}
+
+#inline-list li:hover {
+  font-size: 48px;
+}
+
+
+
+i {
+  color: rgb(178, 41, 24);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
