@@ -102,6 +102,11 @@ a {
   color: aliceblue;
 }
 
+.card-blue-half a {
+  text-decoration: none;
+  color:rgb(178, 41, 24)
+}
+
 
 
 ul {
