@@ -43,6 +43,19 @@ body {
   width: 100px;
 }
 
+.item {
+  /* background-color: #3e3ef3; */
+  border-radius: 5px;
+  color: #f1f108;
+  width: fit-content;
+  height: 24px;
+  padding: 10px 10px;
+  margin: 10px;
+  flex-basis: 0;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
 img {
   height: 100px;
   width: 100px;
